@@ -1,5 +1,5 @@
 const express = require('express')
-const articleRouter = require('./views/routes/articles')
+const articleRouter = require('./routes/articles')
 const app = express()
 
 app.set('view engine', 'ejs')
